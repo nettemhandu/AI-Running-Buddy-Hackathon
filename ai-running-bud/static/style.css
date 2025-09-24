@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #0d1117; /* deep dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #c9d1d9;
+}
+
+.container {
+    background: #161b22; /* dark card */
+    border-radius: 20px;
+    padding: 40px 30px;
+    max-width: 450px;
+    width: 100%;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.5);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    font-size: 32px;
+    color: #c9d1d9; /* subtle header */
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    padding: 12px 15px;
+    width: 70%;
+    border: 2px solid #30363d;
+    border-radius: 12px 0 0 12px;
+    font-size: 16px;
+    outline: none;
+    background: #0d1117;
+    color: #c9d1d9;
+    transition: border 0.2s;
+}
+
+input[type="text"]::placeholder {
+    color: #8b949e;
+}
+
+input[type="text"]:focus {
+    border-color: #58a6ff; /* soft subtle focus */
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 0 12px 12px 0;
+    background: #238636; /* soft green button */
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background: #2ea043; /* slightly brighter hover */
+    transform: translateY(-2px);
+}
+
+h2 {
+    font-size: 24px;
+    color: #c9d1d9;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #8b949e;
+    margin-bottom: 8px;
+}
+
+.weather-icon {
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+h3.good {
+    background: #238636; /* subtle green */
+    color: #fff;
+}
+
+h3.bad {
+    background: #d93f3f; /* subtle red */
+    color: #fff;
+}
+
+h3:hover {
+    transform: scale(1.05);
+}

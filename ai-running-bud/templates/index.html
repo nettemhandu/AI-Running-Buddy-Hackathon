@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Running Buddy</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Running Buddy</h1>
+
+        <form method="post">
+            <input type="text" name="city" placeholder="Enter your city" required>
+            <button type="submit">Check Weather</button>
+        </form>
+
+        {% if city %}
+            <h2>
+                {% if icon %}
+                    <img src="{{ icon }}" class="weather-icon">
+                {% endif %}
+                Weather in {{ city }}:
+            </h2>
+            <p>Temperature: {{ temp }}°C</p>
+            <p>Condition: {{ description }}</p>
+            <h3 class="{{ 'good' if temp >= 10 and temp <= 30 and 'rain' not in description and 'snow' not in description else 'bad' }}">
+                {{ message }}
+            </h3>
+        {% endif %}
+    </div>
+</body>
+</html>
