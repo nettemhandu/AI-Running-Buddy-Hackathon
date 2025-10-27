@@ -6,7 +6,7 @@ Build a simple app using a free AI API to pull data, display it, and add a fun A
 No experience needed—just curiosity and creativity! ✨
 
 
-🌟 Features
+Features :
 
 🌦️ Live Weather Updates – Enter your city and get real-time weather.
 
