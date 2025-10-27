@@ -26,7 +26,7 @@ AI generates a motivational running message based on conditions. (harded coded f
 Everything is displayed in a clean, dark-mode interface.
 
 
-🛠️ Tech Stack
+Tech Stack :
 
 Python (Flask) – Backend
 
