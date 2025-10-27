@@ -15,7 +15,7 @@ Features :
 🎨 Sleek Dark Mode UI – Simple, modern, and mobile-friendly design.
 
 
-🚀 How It Works
+How It Works :
 
 User enters a city name.
 
