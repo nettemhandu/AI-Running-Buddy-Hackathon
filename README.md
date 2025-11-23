@@ -3,7 +3,7 @@
 The goal was to:
 
 Build a simple app using a free AI API to pull data, display it, and add a fun AI-powered feature.
-No experience needed—just curiosity and creativity! ✨
+No experience needed—just curiosity and creativity ✨
 
 
 Features :
