@@ -1,12 +1,12 @@
-# Ai-Running-Buddy-Hackathon
+## AI-Running-Buddy-Hackathon
 
 The goal was to:
 
 Build a simple app using a free AI API to pull data, display it, and add a fun AI-powered feature.
-No experience needed—just curiosity and creativity ✨
+No experience needed—just curiosity and creativity.
 
 
-Features :
+## Features :
 
 Live Weather Updates – Enter your city and get real-time weather.
 
@@ -15,7 +15,7 @@ Motivational AI Messages – Boosts your energy with fun, AI-powered quotes (deb
 Sleek Dark Mode UI – Simple, modern, and mobile-friendly design.
 
 
-How It Works:
+## How It Works:
 
 User enters a city name.
 
@@ -26,7 +26,7 @@ AI generates a motivational running message based on conditions. (harded coded f
 Everything is displayed in a clean, dark-mode interface.
 
 
-Tech Stack :
+## Tech Stack :
 
 Python (Flask) – Backend
 
