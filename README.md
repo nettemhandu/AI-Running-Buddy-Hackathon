@@ -8,11 +8,11 @@ No experience needed—just curiosity and creativity ✨
 
 Features :
 
-🌦️ Live Weather Updates – Enter your city and get real-time weather.
+Live Weather Updates – Enter your city and get real-time weather.
 
-💬 Motivational AI Messages – Boosts your energy with fun, AI-powered quotes (debugging).
+Motivational AI Messages – Boosts your energy with fun, AI-powered quotes (debugging).
 
-🎨 Sleek Dark Mode UI – Simple, modern, and mobile-friendly design.
+Sleek Dark Mode UI – Simple, modern, and mobile-friendly design.
 
 
 How It Works:
